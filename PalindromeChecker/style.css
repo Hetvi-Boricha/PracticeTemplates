@@ -1,0 +1,49 @@
+*{
+        font-family: cursive;
+}
+body{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    background-color: cadetblue;
+    text-align: center;
+}
+h1{
+    margin-top: 15%;
+}
+.container{
+    background-color:rgb(23, 85, 117);
+    padding: 10%;
+    margin: 10%;
+    border-radius: 5%;
+    
+}
+h4{
+    color: white;
+    font-size: large;
+}
+#text-input{ 
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    border-bottom: 2px cornflowerblue solid; 
+}
+#text-input:focus{
+    outline: none;
+    border-left: 2px cornflowerblue solid;
+    border-radius: 10%;
+    
+}
+#check-btn{
+    color: white;
+    background-color: cornflowerblue;
+    border: 0px;
+    border-radius: 20%;
+    padding: 10px 15px;
+    margin: 10px;
+}
+#result{
+    color: white;
+    min-height: 28px ;
+}
