@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(78, 27, 27);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+/* Search bar */
+#search-input {
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  border-radius: 25px;
+  border-bottom:2px solid rgb(153, 71, 71);
+  border-bottom-left-radius: 25px;
+}
+#search-input:focus ,#search-input:hover {
+    outline: none;
+    background-color:rgb(153, 71, 71);
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+#search-button:hover{
+      background-color: rgb(221, 172, 81);
+}
+
+#creature-name {
+  font-size: 28px;
+  margin-top: 20px;
+  color: orange;
+  font-weight: bold;
+}
+
+#creature-id {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+#weight,
+#height {
+  font-size: 18px;
+  margin: 5px 0;
+}
