@@ -1,1 +1,1 @@
-# Practicing CSS making differnt templates.
+# Practicing HTML,CSS,JS making differnt templates.
